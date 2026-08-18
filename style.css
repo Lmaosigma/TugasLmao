@@ -8,7 +8,8 @@ body{
   justify-content: center;
   align-items: center;
   background-image: url('p31.png');
-  background-size: 1920px 1080px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   padding: 20px 10px;
 }
@@ -16,6 +17,7 @@ body{
 @media (max-width: 660px){
   body{
     background-image: url('p3.jpg');
+    background-size: cover;
   }
 }
 .list{
